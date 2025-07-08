@@ -42,8 +42,7 @@ const CTASection = () => {
           Ready to Skyrocket Your Sales?
         </h2>
         <p className="text-lg md:text-xl lg:text-2xl mb-8 md:mb-10 opacity-90">
-          Join thousands of businesses already boosting their revenue with
-          Slerate.
+          Thousands of businesses already boosting their revenue with Slerate.
         </p>
         <Button
           onClick={() => setIsModalOpen(true)}

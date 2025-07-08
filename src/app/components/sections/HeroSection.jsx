@@ -12,21 +12,21 @@ const HeroSection = ({ onButtonClick }) => {
             <span className="text-yellow-300">Slerate Sales Boost</span>
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-8 opacity-90">
-            Revolutionize your sales strategy and achieve unprecedented growth.
+            Upgrade your sales strategy and achieve unprecedented growth.
           </p>
           <Button onClick={onButtonClick} className="text-base md:text-lg ">
             Get Started Now
           </Button>
         </div>
-        <div className="md:w-1/2 flex justify-center md:justify-end">
+        <div className="hidden md:flex md:w-1/2 justify-center md:justify-end">
           <Image
-            src="/images/slerate-hero-image.jpg"
+            src="/images/slerate-hero-image.svg"
             alt="Slerate Sales Boost Dashboard"
             width={600}
             height={400}
             layout="responsive"
             objectFit="contain"
-            className="rounded-lg shadow-2xl max-w-full h-auto"
+            className="rounded-lg shadow-2xl max-w-lg h-auto bg-linear-to-r from-blue-900 to-indigo-700"
           />
         </div>
       </div>
